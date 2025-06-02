@@ -1,8 +1,12 @@
 # 🛍️ Sistema de Controle de Estoque - Donna Vanda Modas
 
-Este projeto é um sistema simples de controle de estoque desenvolvido em **Java**, com o objetivo de organizar os produtos (saias, vestidos etc.) de uma loja familiar que vende por plataformas como **Shopee**, **Mercado Livre** e **Shein**.
 
-A aplicação possui interface gráfica com **Java Swing**, funcionalidades de CRUD e filtros utilizando **Java Stream API**.
+
+Este projeto é uma **aplicação simples de controle de estoque**, desenvolvida em **Java**, para auxiliar uma loja familiar de moda que vende produtos em plataformas como **Shopee**, **Mercado Livre** e **Shein**.
+
+A aplicação conta com interface gráfica feita em **Swing**, funcionalidades de CRUD e filtros implementados com **Java Stream API**.
+
+> 🛠️ Esta é a **primeira versão** do sistema — meu objetivo é evoluí-lo para algo mais robusto, completo e funcional nas próximas etapas.
 
 ---
 
@@ -42,9 +46,9 @@ A interface gráfica permite:
 ## 🧠 Aprendizados
 
 - Prática com estrutura de dados (`HashMap`, `ArrayList`)
-- Uso de **Stream API** para filtros mais legíveis e funcionais
+- Uso da **Stream API** para tornar o código mais conciso e legível
 - Criação de interfaces visuais com Swing
-- Boas práticas de encapsulamento e modularização de código
+- Aplicação de boas práticas de encapsulamento e modularização
 
 ---
 
