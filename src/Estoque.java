@@ -39,40 +39,4 @@ public class Estoque{
     public List<Produto> listarProdutos(){
         return new ArrayList<>(produtos.values());
     }
-
-    public static void main(String[] args) {
-        Estoque estoque = new Estoque();
-
-        Produto p1 = new Produto("001", "Saia Floral", "Vermelho", "M", 5);
-        Produto p2 = new Produto("002", "Saia Jeans", "Azul", "P", 10);
-        Produto p3 = new Produto("003", "Vestido Longo", "Preto", "G", 4);
-        Produto p4 = new Produto("001", "Vestido Curto", "Branco", "M", 5); // código repetido
-
-        // Adiciona produtos
-        System.out.println("Adicionando produtos:");
-        if (estoque.adicionarProduto(p1)) {
-            System.out.println("Produto adicionado: " + p1);
-        } else {
-            System.out.println("ERRO: Este produto já está cadastrado: " + p1.getCodigo());
-        }
-
-        if (estoque.adicionarProduto(p2)) {
-            System.out.println("Produto adicionado: " + p2);
-        } else {
-            System.out.println("ERRO: Este produto já está cadastrado: " + p2.getCodigo());
-        }
-
-        if (estoque.adicionarProduto(p3)) {
-            System.out.println("Produto adicionado: " + p3);
-        } else {
-            System.out.println("ERRO: Este produto já está cadastrado: " + p3.getCodigo());
-        }
-
-        if (estoque.adicionarProduto(p4)) {
-            System.out.println("Produto adicionado: " + p4);
-        } else {
-            System.out.println("ERRO: Este produto já está cadastrado: " + p4.getCodigo());
-        }
-
-    }
 }
